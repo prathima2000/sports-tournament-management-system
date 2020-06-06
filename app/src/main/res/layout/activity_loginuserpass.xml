@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".loginuserpass">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="134dp"
+        android:layout_height="55dp"
+        android:layout_x="55dp"
+        android:layout_y="41dp"
+        android:text="LOGIN"
+        android:textColor="#F0E8E8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_x="188dp"
+        android:layout_y="3dp"
+        android:src="@drawable/xxx"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="-104dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="470dp"
+        android:layout_height="459dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="88dp"
+        android:layout_y="110dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="64dp"
+                android:layout_y="233dp"
+                android:text="user name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="33dp"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="215dp"
+                android:layout_y="229dp"
+                android:inputType="text"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="193dp"
+                tools:layout_editor_absoluteY="174dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="68dp"
+                android:layout_y="370dp"
+                android:text="Password"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="39dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="212dp"
+                android:layout_y="351dp"
+                android:inputType="text"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="193dp"
+                tools:layout_editor_absoluteY="311dp" />
+
+            <Button
+                android:id="@+id/loginasplayer"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_x="124dp"
+                android:layout_y="458dp"
+                android:text="login as player"
+                tools:layout_editor_absoluteX="135dp"
+                tools:layout_editor_absoluteY="414dp" />
+
+            <Button
+                android:id="@+id/loginastrainer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="125dp"
+                android:layout_y="621dp"
+                android:text="Login as trainer"
+                tools:layout_editor_absoluteX="148dp"
+                tools:layout_editor_absoluteY="598dp" />
+
+            <Button
+                android:id="@+id/loginasorganiser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="115dp"
+                android:layout_y="532dp"
+                android:text="Login as organiser"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="508dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</AbsoluteLayout>

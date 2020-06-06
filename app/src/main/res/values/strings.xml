@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">sports</string>
+
+    <string-array name="playermenu">
+        <item>view profile</item>
+        <item>register for match</item>
+
+        <item>score</item>
+        <item>logout</item>
+
+    </string-array>
+
+
+    <string-array name="trainermenu">
+        <item>View Profile</item>
+        <item>Logout</item>
+
+    </string-array>
+
+    <string-array name="organizermenu">
+        <item>View Profile</item>
+        <item>Add Tournament</item>
+        <item>View Participants</item>
+        <item>Update Score</item>
+        <item>Update Schedule</item>
+        <item>Logout</item>
+
+    </string-array>
+
+</resources>

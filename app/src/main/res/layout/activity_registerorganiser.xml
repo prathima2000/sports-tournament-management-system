@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".registerorganiser">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="32dp"
+        android:text="ORGANISATION \nREGISTRATION"
+        android:textColor="#F0E8E8"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="30dp"
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_x="188dp"
+        android:layout_y="3dp"
+        android:src="@drawable/xxx"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="-104dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="395dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="24dp"
+        android:layout_y="123dp">
+
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/GridLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:columnCount="2"
+
+            android:orientation="horizontal"
+            tools:context=".GridLayoutActivity">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_x="25dp"
+                android:layout_y="126dp"
+                android:text="organizer name"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/organiser"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="194dp"
+                android:layout_y="105dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="66dp"
+                android:layout_y="259dp"
+                android:text="password"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/pass"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="207dp"
+                android:layout_y="229dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="95dp"
+                android:layout_y="318dp"
+                android:text="sport"
+
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/sport"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="214dp"
+                android:layout_y="297dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="50dp"
+                android:layout_y="185dp"
+                android:text="organization"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/organisation"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="211dp"
+                android:layout_y="171dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="75dp"
+                android:layout_y="387dp"
+                android:text="address"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="214dp"
+                android:layout_y="374dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="75dp"
+                android:layout_y="452dp"
+                android:text="phone"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/phoneno"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="216dp"
+                android:layout_y="438dp"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="69dp"
+                android:layout_y="526dp"
+                android:text="Academy"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/academy"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="216dp"
+                android:layout_y="509dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="495dp"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+
+    </AbsoluteLayout>

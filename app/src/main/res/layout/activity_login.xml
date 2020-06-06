@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".login">
+
+
+    <TextView
+        android:id="@+id/question1_id"
+        android:layout_width="152dp"
+        android:layout_height="35dp"
+        android:layout_x="56dp"
+
+        android:layout_y="70dp"
+        android:text="REGISTER"
+
+        android:textColor="#FDFDFC"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/player"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_x="96dp"
+        android:layout_y="190dp"
+        android:text="PLAYER"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/organiser"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_x="96dp"
+        android:layout_y="256dp"
+        android:text="TOURNAMENT ORGANISER"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/trainer"
+        android:layout_width="150dp"
+        android:layout_height="68dp"
+        android:layout_x="96dp"
+        android:layout_y="342dp"
+        android:text="TRAINER"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_x="214dp"
+            android:layout_y="453dp"
+            android:text="Skip Registration"
+            android:textColor="@android:color/background_dark"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="134dp"
+        android:layout_height="120dp"
+        android:layout_x="218dp"
+        android:layout_y="19dp"
+        android:src="@drawable/xxx"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="-104dp" />
+</AbsoluteLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".registertrainer">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="32dp"
+        android:text="TRAINER \nREGISTRATION"
+        android:textColor="#F0E8E8"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="30dp"
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_x="188dp"
+        android:layout_y="3dp"
+        android:src="@drawable/xxx"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="-104dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="495dp"
+        android:layout_height="640dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="-84dp"
+        android:layout_y="-46dp">
+
+
+        <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/GridLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:columnCount="2"
+
+            android:orientation="horizontal"
+            tools:context=".GridLayoutActivity">
+
+
+            <TextView
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_x="64dp"
+                android:layout_y="152dp"
+                android:text="Name"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="200dp"
+                android:layout_y="128dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="48dp"
+                android:layout_y="222dp"
+                android:text="Password "
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="210dp"
+                android:layout_y="204dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="53dp"
+                android:layout_y="297dp"
+                android:text="Date of Birth"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="203dp"
+                android:layout_y="281dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="47dp"
+                android:layout_y="456dp"
+                android:text="Experience"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/experience"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="222dp"
+                android:layout_y="437dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="47dp"
+                android:layout_y="360dp"
+                android:text="Phone number"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/phoneno"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="210dp"
+                android:layout_y="356dp"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="60dp"
+                android:layout_y="523dp"
+                android:text="Academy"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/academy"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_x="216dp"
+                android:layout_y="514dp"
+                android:inputType="text"
+                android:textSize="20sp" />
+
+
+        </GridLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="140dp"
+        android:layout_height="68dp"
+        android:layout_x="85dp"
+        android:layout_y="436dp"
+        android:text="Submit"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="164dp" />
+</AbsoluteLayout>
+

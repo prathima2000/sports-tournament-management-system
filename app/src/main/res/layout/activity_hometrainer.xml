@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ccc"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="44dp"
+        android:text="HOME"
+        android:textColor="#F0E8E8"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="77dp"
+
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_x="188dp"
+        android:layout_y="3dp"
+        android:src="@drawable/xxx"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="-104dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="276dp"
+        android:layout_height="64dp"
+
+        android:layout_x="2dp"
+        android:layout_y="142dp"
+        android:entries="@array/trainermenu"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="273dp"
+        android:layout_y="146dp"
+        android:text="GO"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+ </AbsoluteLayout>
+
+
